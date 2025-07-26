@@ -1,3 +1,18 @@
+/*
+ * Wired Wanderer - Light-Activated Dancing LED Lights with Multiple Bicolor LEDs
+ *
+ * Copyright © 2025 Wired Wanderer
+ * YouTube Channel: https://www.youtube.com/@TheWiredWander
+ *
+ * This code is provided for educational and personal use.
+ * Please attribute 'Wired Wanderer' if used in public projects or derivatives.
+ *
+ * Project Description:
+ * This sketch controls 12 single-color LEDs and 2 bicolor LEDs based on ambient light
+ * detected by an LDR. When it's dark, a sequence of various exciting and dramatic
+ * light patterns runs. The patterns cycle automatically after a set duration.
+ * Includes debouncing logic for the LDR and memory optimization using PROGMEM.
+ */
 #include <avr/pgmspace.h> // Required for PROGMEM
 
 // --- Configuration for LEDs ---
